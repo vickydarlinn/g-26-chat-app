@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+.left {
+  @apply self-start;
+}
+.right {
+  @apply self-end;
+}

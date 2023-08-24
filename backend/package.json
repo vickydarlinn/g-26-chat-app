@@ -1,0 +1,15 @@
+{
+  "name": "g-26-chat-app",
+  "version": "1.0.0",
+  "description": "A group chat application for G-26 flat users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vicky darlinn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
